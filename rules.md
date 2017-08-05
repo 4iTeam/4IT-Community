@@ -1,4 +1,4 @@
-# NỘI QUY NHÓM 4iTEAM
+# NỘI QUY NHÓM 4IT Community
 
 Để tránh việc bị Kick, Ban hoặc bị xóa bài mà không biết nguyên nhân tại sao, đề nghị các bạn vui lòng **đọc kỹ nội quy** trước khi tham gia nhóm.
 

@@ -2,9 +2,9 @@
 
 Những điều bạn cần biết về hệ thống xếp hạng thành viên
 
-## 4iTeam Ranking hoạt động như thế nào?
+## 4IT Community Ranking hoạt động như thế nào?
 
-Bằng cách thu thập dữ liệu của nhóm trong 30 ngày gần nhất, 4iTeam Ranking sẽ "chấm điểm" cho mọi tương tác của bạn với nhóm.
+Bằng cách thu thập dữ liệu của nhóm trong 30 ngày gần nhất, 4IT Community Ranking sẽ "chấm điểm" cho mọi tương tác của bạn với nhóm.
 
 Vậy tương tác là như thế nào?
 
@@ -24,11 +24,11 @@ Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất [t
 
 ## THỨ HẠNG CAO THÌ TÔI CÓ NHẬN ĐƯỢC GÌ KHÔNG?
 
-Chơi game tất nhiên phải có thưởng. Với 4iTeam Ranking thì hệ thống sẽ tổng kết điểm vào mỗi ngày cuối tháng. Nếu bạn đạt hạng trong Top 3 thành viên có tổng điểm cao nhất thì bạn sẽ nhận được:
+Chơi game tất nhiên phải có thưởng. Với 4IT Community Ranking thì hệ thống sẽ tổng kết điểm vào mỗi ngày cuối tháng. Nếu bạn đạt hạng trong Top 3 thành viên có tổng điểm cao nhất thì bạn sẽ nhận được:
 
 - Tài khoản .
 - Top 3 thành viên thứ hạng cao nhất sẽ xuất hiện trên Cover (ảnh bìa) của nhóm.
-- Nhận một số **ưu đãi**, **đặc quyền** trong nhóm 4iTeam.
+- Nhận một số **ưu đãi**, **đặc quyền** trong nhóm 4IT Community.
 - Nhận giải thưởng đặc biệt do thành viên trong nhóm tài trợ.
 - Được ưu tiên nếu có xảy ra tranh chấp với thành viên khác trong nhóm.
 - Được ưu tiên trong các đợt tuyển chọn thành viên vào ban Điều hành nhóm (Moderator).
