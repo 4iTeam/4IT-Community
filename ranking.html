@@ -65,10 +65,15 @@
                         <tr v-for="rank in ranks">
                             <td>{{rank.rank}}</td>
                             <td>
-                                <img class="profile-picture"
-                                     :src="'https://graph.facebook.com/'+rank.fb_uid+'/picture?width=32'"
-                                     alt="profile-picture" width="32px" height="32px">
-                                {{rank.fb_name}}
+                                <a target="_blank" :href="'http://fb.com/'+rank.fb_uid">
+                                    <img class="profile-picture"
+                                        :src="'https://graph.facebook.com/'+rank.fb_uid+'/picture?width=32'"
+                                         alt="profile-picture" width="32px" height="32px">
+                                </a>
+                                <a target="_blank" :href="'http://fb.com/'+rank.fb_uid">
+                                    {{rank.fb_name}}
+                                </a>
+
                             </td>
                             <td>{{rank.points}}</td>
                             <td>{{rank.post}}</td>
