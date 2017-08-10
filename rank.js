@@ -16,6 +16,9 @@
             this.loadRank();
 
         },
+        updated:function(){
+            $('table').bootstrapTable();
+        },
         methods: {
             loadRank: function () {
                 this.$http.get(this.endpoint + '/top' + '?gid=' + this.gid).then(function (r) {
@@ -25,6 +28,7 @@
                         this.ranks = r.data.data;
                         this.last=r.data.last;
                         this.total=r.data.total;
+
                     }
                 });
             },
