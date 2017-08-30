@@ -19,14 +19,16 @@ Chú ý: Kick chứ không Block, bạn có quyền xin vào lại. Nhưng nếu
 
 ## TÔI CÓ THỂ THEO DÕI THỨ HẠNG CỦA MÌNH Ở ĐÂU?
 
-Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất [tại đây].
+Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất cũng như tra cứu thứ hạng của mình [tại đây](ranking.html).
+
+Ngoài ra hệ thống cũng cung cấp API để tra cứu thứ hạng.
 
 
 ## THỨ HẠNG CAO THÌ TÔI CÓ NHẬN ĐƯỢC GÌ KHÔNG?
 
 Chơi game tất nhiên phải có thưởng. Với 4IT Community Ranking thì hệ thống sẽ tổng kết điểm vào mỗi ngày cuối tháng. Nếu bạn đạt hạng trong Top 3 thành viên có tổng điểm cao nhất thì bạn sẽ nhận được:
 
-- Tài khoản .
+- Tài khoản One Drive 5TB (nếu chưa có).
 - Top 3 thành viên thứ hạng cao nhất sẽ xuất hiện trên Cover (ảnh bìa) của nhóm.
 - Nhận một số **ưu đãi**, **đặc quyền** trong nhóm 4IT Community.
 - Nhận giải thưởng đặc biệt do thành viên trong nhóm tài trợ.
@@ -34,7 +36,10 @@ Chơi game tất nhiên phải có thưởng. Với 4IT Community Ranking thì h
 - Được ưu tiên trong các đợt tuyển chọn thành viên vào ban Điều hành nhóm (Moderator).
 - ...
 
-**Đặc biệt:** Top 1 của mỗi tháng sẽ được tham gia nhóm bí mật **chỉ dành cho người lên được Thách Đấu**.
+## THỨ HẠNG THẤP THÌ CÓ LÀM SAO KHÔNG?
+Tất nhiên rồi có thưởng thì có phạt chứ
+- **Kick** hoặc **Block** khỏi nhóm
+- **Không** thể xem được một số tài nguyên yêu cầu thứ hạng 
 
 ## CÂU HỎI THƯỜNG GẶP (FAQ)
 

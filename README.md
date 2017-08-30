@@ -6,4 +6,10 @@ Dưới đây là những điều mà bạn cần biết nếu muốn tham gia [
 ## Liên kết
 
 - [Nội quy nhóm](rules.md)
+- [Hệ thống xếp hạng thành viên](rank.md)
 
+## Công cụ
+
+Các công cụ liệt kê dưới đây được đóng góp bởi cộng đồng:
+
+- [Mã hóa, bảo vệ liên kết](http://tainguyenso.net/)
