@@ -50,6 +50,8 @@ var rank;
                     return 'Top '+this.top+' Users'
                 }else if(this.user){
                     return this.user.fb_name+"'s Rank";
+                }else{
+                    return 'No rank';
                 }
             }
         },
@@ -65,8 +67,6 @@ var rank;
                         this.ranks = r.data.data;
                         this.last=r.data.last;
                         this.total=r.data.total;
-
-
                     }
                 });
             },

@@ -53,21 +53,9 @@
 
                     </div>
                     <div class="panel-body">
-                        <form action="#" method="POST" role="form" @submit.prevent="myRank">
-
-                            <div class="form-group hidden" v-if="!fb">
-                                <label for="uid">User Id</label>
-                                <div class="input-group">
-                                    <input type="hidden" class="form-control" id="uid" name="uid" v-model="uid" autofocus required>
-                                    <span class="input-group-btn">
-                        <button class="btn btn-default" :disabled="!valid"></button>
-                      </span>
-                                </div>
-                            </div>
-                        </form>
-                        <div class="alert alert-danger" v-if="error">
+                        <div class="alert alert-danger" v-if="ranks.length==0 && tab=='my'">
                             <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                            <strong>Error!</strong> User not found.
+                            <strong>Error!</strong> Bạn chưa được xếp hạng.
                         </div>
                         <div v-if="ranks.length > 0">
                         <table id="rankTable" data-toggle="table" class="table">
