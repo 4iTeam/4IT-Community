@@ -16,7 +16,11 @@ Vậy tương tác là như thế nào?
 Tất cả những hành động trên đều là **tương tác với group**. Và hệ thống chấm điểm của mình dựa theo những hành động này. Đây đều là những hành động cơ bản trên Facebook, nên trong 30 ngày mà bạn không có bất cứ dấu hiệu nào cho thấy bạn đang ở trong group thì bạn được tự động kick ra ngoài.
 
 Chú ý: Kick chứ không Block, bạn có quyền xin vào lại. Nhưng nếu bị Kick 3 lần khỏi nhóm thì bạn sẽ bị **Block vĩnh viễn**.
-
+### Quy tắc tính điểm
+- Mỗi **bài đăng** được cộng **5 điểm**
+- Mỗi lượt **bình luận** được cộng **2 điểm**
+- Mỗi lượt **reaction** được cộng **1 điểm** 
+- Mỗi bình luận **spam** bị **trừ 50 điểm**
 ## TÔI CÓ THỂ THEO DÕI THỨ HẠNG CỦA MÌNH Ở ĐÂU?
 
 Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất cũng như tra cứu thứ hạng của mình [tại đây](ranking.html).
