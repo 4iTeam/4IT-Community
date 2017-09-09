@@ -13,9 +13,11 @@ Vậy tương tác là như thế nào?
 - Bạn **reaction** (Like/Love/Haha/Wow/Sad/Angry) trên một bài viết trong nhóm.
 - Bạn **chia sẻ** một bài viết trong nhóm về trang cá nhân ở chế độ **Công khai**.
 
-Tất cả những hành động trên đều là **tương tác với group**. Và hệ thống chấm điểm của mình dựa theo những hành động này. Đây đều là những hành động cơ bản trên Facebook, nên trong 30 ngày mà bạn không có bất cứ dấu hiệu nào cho thấy bạn đang ở trong group thì bạn được tự động kick ra ngoài.
+Tất cả những hành động trên đều là **tương tác với group**. Và hệ thống chấm điểm của mình dựa theo những hành động này. 
+Đây đều là những hành động cơ bản trên Facebook, nên trong 30 ngày mà bạn không có bất cứ dấu hiệu nào cho thấy bạn đang ở trong group thì bạn được tự động kick ra ngoài.
 
-Chú ý: Kick chứ không Block, bạn có quyền xin vào lại. Nhưng nếu bị Kick 3 lần khỏi nhóm thì bạn sẽ bị **Block vĩnh viễn**.
+Chú ý: Kick chứ không Block, bạn vẫn có quyền xin vào lại nhóm.
+
 ### Quy tắc tính điểm
 - Mỗi **bài đăng** được cộng **5 điểm**
 - Mỗi lượt **bình luận** được cộng **2 điểm**
@@ -23,7 +25,7 @@ Chú ý: Kick chứ không Block, bạn có quyền xin vào lại. Nhưng nếu
 - Mỗi bình luận **spam** bị **trừ 50 điểm**
 ## TÔI CÓ THỂ THEO DÕI THỨ HẠNG CỦA MÌNH Ở ĐÂU?
 
-Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất cũng như tra cứu thứ hạng của mình [tại đây](ranking.html).
+Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất cũng như tra cứu thứ hạng của mình **[tại đây](ranking.html)**.
 
 Ngoài ra hệ thống cũng cung cấp API để tra cứu thứ hạng.
 
@@ -33,7 +35,7 @@ Ngoài ra hệ thống cũng cung cấp API để tra cứu thứ hạng.
 Chơi game tất nhiên phải có thưởng. Với 4IT Community Ranking thì hệ thống sẽ tổng kết điểm vào mỗi ngày cuối tháng. Nếu bạn đạt hạng trong Top 3 thành viên có tổng điểm cao nhất thì bạn sẽ nhận được:
 
 - Tài khoản One Drive 5TB (nếu chưa có).
-- Top 3 thành viên thứ hạng cao nhất sẽ xuất hiện trên Cover (ảnh bìa) của nhóm.
+- Nhận được những tài nguyên **hot** được chia sẻ trong nhóm
 - Nhận một số **ưu đãi**, **đặc quyền** trong nhóm 4IT Community.
 - Nhận giải thưởng đặc biệt do thành viên trong nhóm tài trợ.
 - Được ưu tiên nếu có xảy ra tranh chấp với thành viên khác trong nhóm.
@@ -42,7 +44,7 @@ Chơi game tất nhiên phải có thưởng. Với 4IT Community Ranking thì h
 
 ## THỨ HẠNG THẤP THÌ CÓ LÀM SAO KHÔNG?
 Tất nhiên rồi có thưởng thì có phạt chứ
-- **Kick** hoặc **Block** khỏi nhóm
+- **Kick** khỏi nhóm
 - **Không** thể xem được một số tài nguyên yêu cầu thứ hạng 
 
 ## CÂU HỎI THƯỜNG GẶP (FAQ)
