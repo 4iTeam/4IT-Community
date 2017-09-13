@@ -2,6 +2,7 @@
 Những điều cần biết về tài nguyên số
 * Bảo vệ tài nguyên cho nhóm
 * Tăng tương tác cho bài viết
+
 ## Câu hỏi thường gặp
 ### 1. Bạn cần tối thiểu x điểm để có thể xem nội dung này?
 Tài nguyên bạn đang xem yêu cầu điểm, để biết điểm là gì xem **[tại đây](rank.md)**
