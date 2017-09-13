@@ -12,4 +12,4 @@ Dưới đây là những điều mà bạn cần biết nếu muốn tham gia [
 
 Các công cụ liệt kê dưới đây được đóng góp bởi cộng đồng:
 
-- [Mã hóa, bảo vệ liên kết](http://tainguyenso.net/)
+- [Mã hóa, bảo vệ liên kết](tainguyenso.md) [http://tainguyenso.net](https://tainguyenso.net)

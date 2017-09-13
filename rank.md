@@ -18,11 +18,12 @@ Tất cả những hành động trên đều là **tương tác với group**. 
 
 Chú ý: Kick chứ không Block, bạn vẫn có quyền xin vào lại nhóm.
 
-### Quy tắc tính điểm
+### <a name="rule"></a>Quy tắc tính điểm
 - Mỗi **bài đăng** được cộng **5 điểm**
 - Mỗi lượt **bình luận** được cộng **2 điểm**
 - Mỗi lượt **reaction** được cộng **1 điểm** 
 - Mỗi bình luận **spam** bị **trừ 50 điểm**
+
 ## TÔI CÓ THỂ THEO DÕI THỨ HẠNG CỦA MÌNH Ở ĐÂU?
 
 Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất cũng như tra cứu thứ hạng của mình **[tại đây](ranking.html)**.
@@ -48,6 +49,9 @@ Tất nhiên rồi có thưởng thì có phạt chứ
 - **Không** thể xem được một số tài nguyên yêu cầu thứ hạng 
 
 ## CÂU HỎI THƯỜNG GẶP (FAQ)
+
+### Khi nào thứ hạng của tôi được cập nhật?
+Hệ thống cập nhật thứ hạng hàng ngày vào lúc 8h sáng.
 
 ### Nếu bài viết của tôi bị xóa thì tôi có bị mất điểm không?
 
