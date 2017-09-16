@@ -82,6 +82,12 @@ Thay vì thắc mắc "vì sao tôi bị trừ điểm" thì hãy thắc mắc "
 ### Trên bảng xếp hạng tôi thấy có scores, vậy scores là gì?
 
 Đơn giản score tính bằng tổng điểm chia cho tổng số bài viết hiện có, nhằm đánh giá xem bài viết có chất lượng hay không.
+
+### Bình luận thế nào thì bị coi là spam?
+Những bình luận như sau sẽ được coi là spam
+ - Bình luận chỉ có 1 2 ký tự
+ - Bình luận vô nghĩa
+ - Bình luận không liên quan gì đến nội dung bài viết
 <!--
 ### Tại sao số thành viên được xếp hạng nhiều hơn số thành viên hiện tại của nhóm?
 -->
