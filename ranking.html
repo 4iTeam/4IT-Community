@@ -43,9 +43,9 @@
                                     <span class="glyphicon glyphicon-signal" aria-hidden="true"></span> {{loading ? 'Loading...' : 'Top 50'}}</button>
                             </div>
                             <div class="pull-right" v-if="fb">
-                                <button class="btn btn-default btn-xs" @click="myRank" :disabled="loading">
+                                <button class="btn btn-default btn-xs" @click="myRank" :disabled="loading" title="Kiểm tra thứ hạng của bạn" data-toggle="tooltip">
                                     <span
-                                            class="glyphicon glyphicon-user" aria-hidden="true"></span> {{loading ? 'Loading...' : 'Find My Rank'}}
+                                            class="glyphicon glyphicon-user" aria-hidden="true"></span> {{loading ? 'Loading...' : 'My Rank'}}
                                 </button>
                             </div>
 
