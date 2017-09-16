@@ -88,6 +88,9 @@ Những bình luận như sau sẽ được coi là spam
  - Bình luận chỉ có 1 2 ký tự
  - Bình luận vô nghĩa
  - Bình luận không liên quan gì đến nội dung bài viết
-<!--
-### Tại sao số thành viên được xếp hạng nhiều hơn số thành viên hiện tại của nhóm?
--->
+ 
+ ### Tôi bị âm điểm làm sao để sửa?
+ 
+ Bạn bị trừ 50 điểm cho mỗi bình luận spam, để hết điểm âm bạn chỉ cần sửa lại những bình luận spam hoặc xóa đi.
+ Sau khi sửa/xóa xong bạn hãy chờ đến 8h sáng hôm sau hệ thống cập nhật lại sẽ hết.
+ 

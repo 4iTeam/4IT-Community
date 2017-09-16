@@ -12,3 +12,5 @@ Bạn hãy **tương tác** với **bài viết** trong nhóm để nhận đi�
 Hệ thống **[ranking](rank.md)** chạy mỗi ngày 1 lần vào lúc 8h sáng, khi đó điểm của bạn mới được cập nhật.
 ### 4. Tôi có thể xem thông tin về điểm của mình ở đâu?
 Bạn xem ở phần profile (click vào tên ở góc trên bên phải và chọn profile) hoặc xem trực tiếp bằng cách click **[vào đây](https://tainguyenso.net/profile)**
+### 5. Tôi bị âm điểm làm thế nào bây giờ?
+Hệ thống **[ranking](rank.md)** sẽ thu thập lại dữ liệu mỗi ngày do đó để hết bị âm bạn chỉ cần sửa hết những bình luận spam ("Chấm" ("."), "phẩy" (","),...) đi và chờ đến 8h sáng ngày hôm sau để hệ thống cập nhật lại.
