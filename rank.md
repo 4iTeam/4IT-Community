@@ -24,6 +24,11 @@ Chú ý: Kick chứ không Block, bạn vẫn có quyền xin vào lại nhóm.
 - Mỗi lượt **reaction** được cộng **1 điểm** 
 - Mỗi bình luận **spam** bị **trừ 50 điểm**
 
+*Điểm của bình luận và reaction được cộng cho cả người đăng bài và người tương tác.*
+
+***Ví dụ:*** Trong 30 ngày vừa qua, bạn đăng một bài và được 50 reactions, 20 comments. Bạn cũng like 10 bài viết, và có 5 comment trên 5 bài viết của người khác.
+<br> Như vậy bạn sẽ có: 1\*5+50\*1+20\*2+10\*1+5\*2=115 điểm
+
 ## TÔI CÓ THỂ THEO DÕI THỨ HẠNG CỦA MÌNH Ở ĐÂU?
 
 Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất cũng như tra cứu thứ hạng của mình **[tại đây](ranking.html)**.
@@ -51,7 +56,7 @@ Tất nhiên rồi có thưởng thì có phạt chứ
 ## CÂU HỎI THƯỜNG GẶP (FAQ)
 
 ### Khi nào thứ hạng của tôi được cập nhật?
-Hệ thống cập nhật thứ hạng hàng ngày vào lúc 8h sáng.
+Hệ thống cập nhật thứ hạng hàng ngày vào lúc **8h sáng**.
 
 ### Nếu bài viết của tôi bị xóa thì tôi có bị mất điểm không?
 
@@ -74,6 +79,9 @@ Vậy nên nếu trong ngày `(n-31)` bạn kiếm được 500 điểm mà tron
 
 Thay vì thắc mắc "vì sao tôi bị trừ điểm" thì hãy thắc mắc "vì sao người khác cũng bị trừ điểm mà rank họ lại tăng". Vì thuật toán chấm điểm áp dụng lên TOÀN BỘ THÀNH VIÊN chứ không phải CHỈ MÌNH BẠN nên yếu tố quyết định thứ hạng ở đây là bạn có tương tác đủ nhiều mỗi ngày để bị trừ ít điểm hơn mọi người trong **ngày hôm sau** hay không. Hãy nhớ là tất cả cùng bị trừ điểm hoặc cộng điểm như nhau nên hoàn toàn công bằng. Không có sự thiên vị cho bất cứ ai cả!
 
+### Trên bảng xếp hạng tôi thấy có scores, vậy scores là gì?
+
+Đơn giản score tính bằng tổng điểm chia cho tổng số bài viết hiện có, nhằm đánh giá xem bài viết có chất lượng hay không.
 <!--
 ### Tại sao số thành viên được xếp hạng nhiều hơn số thành viên hiện tại của nhóm?
 -->
