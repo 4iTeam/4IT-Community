@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4IT Community Ranking</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.css" rel="stylesheet"/>
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>#ranking {
+        max-width: 800px;
+    }
+
+    [v-cloak] {
+        display: none
+    }
+    </style>
+</head>
+<body>
+<div class="container" id="ranking" data-m="-1">
+    <div v-cloak>
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <h1><a href="//www.facebook.com/groups/4it.community/" target="_blank">4IT
+                    Community Ranking</a></h1>
+                <p>Bảng xếp hạng của tháng trước</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span> Top
+                            50 Users</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <table id="rankTable" data-toggle="table" class="table" v-if="ranks.length > 0">
+                            <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Name</th>
+                                <th class="text-center">Points</th>
+                                <th class="text-center" data-sortable="true">Posts</th>
+                                <th class="text-center" data-sortable="true">Spam</th>
+                                <th class="text-center" data-sortable="true">Scores</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr v-for="rank in ranks">
+                                <td>{{rank.rank}}</td>
+                                <td>
+                                    <a target="_blank" :href="'http://fb.com/'+rank.fb_uid">
+                                        <img class="profile-picture"
+                                             :src="'//graph.facebook.com/'+rank.fb_uid+'/picture?width=32'"
+                                             alt="profile-picture" width="32px" height="32px">
+                                    </a>
+                                    <a target="_blank" :href="'http://fb.com/'+rank.fb_uid">
+                                        {{rank.fb_name}}
+                                    </a>
+
+                                </td>
+                                <td>{{rank.points}}</td>
+                                <td>{{rank.post}}</td>
+                                <td>{{rank.spam}}</td>
+                                <td>{{rank.scores}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <div class="panel-footer text-center">
+                        Developed by <a href="//4it.top" target="_blank">4IT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.1.10/vue.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.0/vue-resource.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
+<script src="rank.js"></script>
+</body>
+</html>

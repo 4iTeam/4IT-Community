@@ -18,12 +18,16 @@ var rank;
             ranksUpdated:!1,
             top:50,
             tab:'top',
+            m:0,
             fb:!1
         },
         mounted: function () {
-            var action;
+            var action,m;
             if(action=$(this.$el).data('action')){
                 this.action=action;
+            }
+            if(m=$(this.$el).data('m')){
+                this.m=m;
             }
             this.loadRank();
         },
@@ -59,7 +63,7 @@ var rank;
             loadRank: function () {
                 this.tab='top';
                 this.loading=true;
-                this.$http.get(this.endpoint + '/' + this.action + '?gid=' + this.gid).then(function (r) {
+                this.$http.get(this.endpoint + '/' + this.action + '?gid=' + this.gid+'&m='+this.m).then(function (r) {
                     return r.json();
                 }).then(function (r) {
                     this.loading=false;
