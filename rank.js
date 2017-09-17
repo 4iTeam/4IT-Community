@@ -20,7 +20,7 @@ var rank;
             top:50,
             tab:'top',
             m:0,
-            mMin:0,
+            mMin:-12,
             fb:!1
         },
         mounted: function () {
