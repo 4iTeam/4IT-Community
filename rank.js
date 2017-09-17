@@ -64,12 +64,12 @@ var rank;
                 if(this.loading){
                     return false;
                 }
-                if(this.mMin<0){
-                    return this.m>this.mMin;
-                }
                 if(!this.ranks||!this.ranks.length>0){
                     this.mMin=this.m+1;
                     return false;
+                }
+                if(this.mMin<0){
+                    return this.m>this.mMin;
                 }
                 return true;
             },
