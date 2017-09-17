@@ -67,11 +67,11 @@ var rank;
                 if(this.mMin<0){
                     return this.m>this.mMin;
                 }
-                if(this.ranks&&this.ranks.length>0){
-                    return true;
+                if(!this.ranks||!this.ranks.length>0){
+                    this.mMin=this.m+1;
+                    return false;
                 }
-                this.mMin=this.m+1;
-                return false;
+                return true;
             },
             next:function(){
                 if(this.loading){
