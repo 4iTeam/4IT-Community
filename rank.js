@@ -13,6 +13,7 @@ var rank;
             gid: '1415192401896193',
             error: !1,
             last:'',
+            now:'',
             total:0,
             loading: !1,
             ranksUpdated:!1,
