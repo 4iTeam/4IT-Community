@@ -72,6 +72,7 @@ var rank;
                         this.ranks = r.data.data;
                         this.last=r.data.last;
                         this.total=r.data.total;
+                        this.now=r.data.now;
                     }
                 });
             },
