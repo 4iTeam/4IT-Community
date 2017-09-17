@@ -20,6 +20,7 @@ var rank;
             top:50,
             tab:'top',
             m:0,
+            mMin:0,
             fb:!1
         },
         mounted: function () {
@@ -63,7 +64,14 @@ var rank;
                 if(this.loading){
                     return false;
                 }
-                return this.ranks&&this.ranks.length>0;
+                if(this.mMin<0){
+                    return this.m>this.mMin;
+                }
+                if(this.ranks&&this.ranks.length>0){
+                    return true;
+                }
+                this.mMin=this.m+1;
+                return false;
             },
             next:function(){
                 if(this.loading){
