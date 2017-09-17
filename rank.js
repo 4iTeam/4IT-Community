@@ -58,7 +58,20 @@ var rank;
                 }else{
                     return 'No rank';
                 }
+            },
+            prev:function () {
+                if(this.loading){
+                    return false;
+                }
+                return this.ranks&&this.ranks.length>0;
+            },
+            next:function(){
+                if(this.loading){
+                    return false;
+                }
+                return this.m<0;
             }
+
         },
         methods: {
             loadRank: function () {
@@ -69,7 +82,7 @@ var rank;
                 }).then(function (r) {
                     this.loading=false;
                     if(r.success) {
-                        this.ranks = r.data.data;
+                        this.ranks = r.data.data||[];
                         this.last=r.data.last;
                         this.total=r.data.total;
                         this.now=r.data.now;
@@ -100,13 +113,30 @@ var rank;
                     return r.json();
                 }).then(function (r) {
                     if(r.success) {
-                        this.ranks = r.data;
+                        this.ranks = r.data.data||[];
+                        this.now=r.data.now;
                         this.user=_.findWhere(this.ranks,{is_mine:true});
                     }else{
                         this.error=1;
                     }
                     this.loading=false;
                 });
+            },
+            nextMonth:function(){
+                this.m++;
+                this.load();
+            },
+            prevMonth:function(){
+                this.m--;
+                this.load();
+            },
+            load:function(){
+                if(this.tab=='top'){
+                    this.loadRank();
+                }
+                if(this.tab=='my'){
+                    this.myRank();
+                }
             }
 
         }

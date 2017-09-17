@@ -27,7 +27,7 @@
         <div class="row text-center">
             <div class="col-xs-12">
                 <h1><a href="//www.facebook.com/groups/4it.community/" target="_blank">4IT
-                    Community Ranking</a></h1>
+                    Community Ranking - Tháng {{now}}</a></h1>
                 <p>Cập nhật lúc: <strong>{{last}}</strong>. Tổng số thành viên được xếp hạng: <strong>{{total}}</strong>
                 </p>
             </div>
@@ -38,16 +38,19 @@
                     <div class="panel-heading">
                         <h3 class="panel-title"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span>
                             {{loading?'Loading...':heading}}
-                            <div class="pull-right" v-if="fb">
-                                <button class="btn btn-default btn-xs" @click="loadRank" :disabled="loading">
-                                    <span class="glyphicon glyphicon-signal" aria-hidden="true"></span> {{loading ? 'Loading...' : 'Top 50'}}</button>
+                            <div class="pull-right">
+                                <div v-if="fb" class="pull-left" style="padding-right: 5px">
+                                    <button class="btn btn-default btn-xs" @click="loadRank" :disabled="loading">
+                                        <span class="glyphicon glyphicon-signal" aria-hidden="true"></span> {{loading ? 'Loading...' : 'Top 50'}}
+                                    </button>
+                                    <button class="btn btn-default btn-xs" @click="myRank" :disabled="loading" title="Kiểm tra thứ hạng của bạn" data-toggle="tooltip">
+                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> {{loading ? 'Loading...' : 'My Rank'}}
+                                    </button>
+                                </div>
+                                <button :disabled="!prev" @click="prevMonth" class="btn btn-default btn-xs" title="Tháng trước" data-toggle="tooltip"><i class="glyphicon glyphicon-menu-left"></i></button>
+                                <button :disabled="!next" @click="nextMonth" class="btn btn-default btn-xs" title="Tháng sau" data-toggle="tooltip"><i class="glyphicon glyphicon-menu-right"></i></button>
                             </div>
-                            <div class="pull-right" v-if="fb">
-                                <button class="btn btn-default btn-xs" @click="myRank" :disabled="loading" title="Kiểm tra thứ hạng của bạn" data-toggle="tooltip">
-                                    <span
-                                            class="glyphicon glyphicon-user" aria-hidden="true"></span> {{loading ? 'Loading...' : 'My Rank'}}
-                                </button>
-                            </div>
+
 
                         </h3>
 
@@ -126,6 +129,9 @@
         js.src = "//connect.facebook.net/en_US/sdk.js";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
 </script>
 </body>
 </html>
