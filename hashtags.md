@@ -15,6 +15,7 @@ Nhằm mục đích phân loại nội dung cũng như giúp các bạn dễ dà
 | #4it_chiase hoặc #4it_share      | Chia sẻ (tài liệu, sách, phần mềm, khóa học,...) |
 | #4it_giaitri hoặc #4it_relax      | Ảnh, video hoặc nội dung giải trí                |
 | #4it_huongdan hoặc #4it_tut   | Hướng dẫn lập trình hoặc chia sẻ kiến thức       |
+| #4it_thaoluan hoặc #4it_chat   | Thảo luận một chủ đề nào đó       |
 | #4it_admin       | Tin tức, cập nhật, thông báo từ BQT              |
 
 ## Các hashtag phụ

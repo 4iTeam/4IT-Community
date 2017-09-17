@@ -7,6 +7,7 @@ Dưới đây là những điều mà bạn cần biết nếu muốn tham gia [
 
 - [Nội quy nhóm](rules.md)
 - [Hệ thống xếp hạng thành viên](rank.md)
+- [Tra cứu thứ hạng](ranking.html)
 
 ## Công cụ
 
