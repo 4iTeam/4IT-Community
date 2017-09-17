@@ -29,9 +29,10 @@ Chú ý: Kick chứ không Block, bạn vẫn có quyền xin vào lại nhóm.
 ***Ví dụ:*** Trong 30 ngày vừa qua, bạn đăng một bài và được 50 reactions, 20 comments. Bạn cũng like 10 bài viết, và có 5 comment trên 5 bài viết của người khác.
 <br> Như vậy bạn sẽ có: 1\*5+50\*1+20\*2+10\*1+5\*2=115 điểm
 
-## TÔI CÓ THỂ THEO DÕI THỨ HẠNG CỦA MÌNH Ở ĐÂU?
-
-Bạn có thể theo dõi **Top 50** thành viên có thứ hạng cao nhất cũng như tra cứu thứ hạng của mình **[tại đây](ranking.html)**.
+## BẢNG XẾP HẠNG
+Là nơi để kiểm tra thứ hạng cũng như xem ai là người dẫn đầu.
+- Top 50 và tra cứu thứ hạng **[tại đây](ranking.html)**
+- Top 50 của tháng trước **[tại đây](ranking-previous.html)**
 
 Ngoài ra hệ thống cũng cung cấp API để tra cứu thứ hạng.
 
