@@ -96,7 +96,7 @@ var rank;
                     return ;
                 }
                 this.error=0;
-                this.$http.get(this.endpoint + '/me'  + '?gid=' + this.gid+'&uid='+this.uid).then(function (r) {
+                this.$http.get(this.endpoint + '/me'  + '?gid=' + this.gid+'&uid='+this.uid+'&m='+this.m).then(function (r) {
                     return r.json();
                 }).then(function (r) {
                     if(r.success) {
