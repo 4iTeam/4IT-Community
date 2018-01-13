@@ -103,7 +103,8 @@ var rank;
                 this.tab='my';
                 if(!this.uid){
                     if(this.fb){
-                        if(!FB.getUserID()){
+                        this.uid = FB.getUserID();
+                        if(!this.uid){
                             FB.login(
                                 function(response){
                                     if(response.status) {
@@ -112,9 +113,10 @@ var rank;
                                     }
                                 }
                             );
+                            return ;
                         }
                     }
-                    return ;
+
                 }
                 this.error=0;
                 this.$http.get(this.endpoint + '/me'  + '?gid=' + this.gid+'&uid='+this.uid+'&m='+this.m).then(function (r) {
