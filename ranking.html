@@ -77,12 +77,12 @@
                             <tr v-for="rank in ranks" :class="rank.is_mine?'bg-success':''">
                                 <td>{{rank.rank}}</td>
                                 <td>
-                                    <a target="_blank" :href="'http://fb.com/'+rank.fb_uid">
+                                    <a target="_blank" :href="'https://fb.com/'+rank.fb_uid">
                                         <img class="profile-picture"
                                              :src="'//graph.facebook.com/'+rank.fb_uid+'/picture?width=32'"
                                              alt="profile-picture" width="32px" height="32px">
                                     </a>
-                                    <a target="_blank" :href="'http://fb.com/'+rank.fb_uid">
+                                    <a target="_blank" :href="'https://fb.com/'+rank.fb_uid">
                                         {{rank.fb_name}}
                                     </a>
 

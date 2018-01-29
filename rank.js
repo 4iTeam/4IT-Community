@@ -1,5 +1,15 @@
 /* Developed by Nguyen Thanh | Copyright (C) 2017 4IT */
 var rank;
+function queryStrings($var){
+    var queries = {};
+    document.location.search.substr(1).split('&').forEach(function(c){
+        var i = c.split('=');
+        if(i.length>0 && i[0]) {
+            queries[i[0].toString()] = i[1]?i[1].toString():null;
+        }
+    });
+    window.$_GET=queries;
+}queryStrings();
 (function () {
     var ranksUpdated;
     rank=new Vue({
@@ -30,6 +40,12 @@ var rank;
             }
             if(m=$(this.$el).data('m')){
                 this.m=m;
+            }
+            if($_GET['m']){
+                this.m=$_GET['m'];
+            }
+            if($_GET['action']){
+                this.action=$_GET['action'];
             }
             this.loadRank();
         },

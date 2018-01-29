@@ -32,8 +32,8 @@ Chú ý: Kick chứ không Block, bạn vẫn có quyền xin vào lại nhóm.
 ## BẢNG XẾP HẠNG
 Là nơi để kiểm tra thứ hạng cũng như xem ai là người dẫn đầu.
 - Top 50 và tra cứu thứ hạng **[tại đây](ranking.html)**
-- Top 50 của tháng trước **[tại đây](ranking-previous.html)**
-- Top 50 thành viên **đứng cuối** **[tại đây](ranking-reverse.html)**
+- Top 50 của tháng trước **[tại đây](ranking.html?m=-1)**
+- Top 50 thành viên **đứng cuối** **[tại đây](ranking.html?action=bad)**
 
 Ngoài ra hệ thống cũng cung cấp API để tra cứu thứ hạng.
 
