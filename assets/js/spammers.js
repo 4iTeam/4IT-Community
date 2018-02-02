@@ -18,6 +18,7 @@ function queryStrings($var){
             endpoint: "https://graph.4it.top/v1/spam",
             items: [],
             uid: '',
+            q:'',
             user:null,
             gid: '1415192401896193',
             error: !1,
@@ -34,6 +35,9 @@ function queryStrings($var){
             if($_GET['uid']){
                 this.tab='custom';
                 this.uid=$_GET['uid'];
+            }
+            if($_GET['q']){
+                this.q=$_GET['q'];
             }
             this.loadData();
         },
@@ -75,7 +79,7 @@ function queryStrings($var){
             },
             loadData: function () {
                 this.loading=true;
-                this.$http.get(this.endpoint + '/' + this.gid+'?page='+this.page+'&uid='+this.uid).then(function (r) {
+                this.$http.get(this.endpoint + '/' + this.gid+'?page='+this.page+'&uid='+this.uid+'&q='+this.q).then(function (r) {
                     return r.json();
                 }).then(function (r) {
                     this.loading=false;
