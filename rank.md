@@ -34,11 +34,11 @@ Bắt đầu từ ngày 3-2-2018 Hệ thống ranking được bổ sung thêm 1
 - Bỏ qua bài viết thiếu hashtag hoặc hashtag không đúng và người đăng bị tính là **1 spam**
 - Bình luận trực tiếp trên bài viết    
     - Bình luận bằng hình ảnh **không** bị tính là **spam**
-    - Đối với bài viết có gán hashtag *#4it_share* các bình luận bằng **hình ảnh** hoặc bình luận dưới **3 ký tự** sẽ bị tính là spam (Các bạn tôn trọng người share một chút ạ, đừng kiểu như "tks", "hay","(y)"...) 
+    - Đối với bài viết có gán hashtag *#4it_share* các bình luận bằng **hình ảnh/sticker** hoặc bình luận dưới **3 ký tự** sẽ bị tính là spam (Các bạn tôn trọng người share một chút ạ, đừng kiểu như "tks", "hay","(y)"...) 
     - Bình luận chỉ có **1 ký tự** sẽ bị tính là spam trừ trường hợp chơi minigame trên các bài viết có gắn hashtag *#4it_minigame* hoặc *#4it_game*
 - Trường hợp trả lời bình luận 
     - Chỉ có **1 ký tự** sẽ bị tính là **spam** 
-    - Comment bằng hình ảnh **không** bị tính **spam** 
+    - Comment bằng hình ảnh/sticker **không** bị tính **spam** 
 - Các bình luận trên bài viết có gán hashtag *#4it_share* chỉ được cộng điểm nếu có từ **2 từ** trở lên (nhằm tôn trọng người chia sẻ)
 - Các bình luận "chấm",".","hóng","," luôn bị tính là spam
 
