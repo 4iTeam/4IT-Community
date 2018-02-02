@@ -89,7 +89,7 @@
                                 </td>
                                 <td>{{rank.points}}</td>
                                 <td>{{rank.post}}</td>
-                                <td>{{rank.spam}}</td>
+                                <td><a :href="'spam.html'+'?uid='+rank.fb_uid" target="_blank" title="Click để xem spam">{{rank.spam}}</a></td>
                                 <td>{{rank.scores}}</td>
                             </tr>
                             </tbody>
