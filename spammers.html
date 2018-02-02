@@ -11,8 +11,20 @@
     <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <style>#ranking {
-        max-width: 800px;
+    <style>#spams-list {
+        max-width: 1000px;
+    }
+    .col-name {
+        width: 20%;
+    }
+    .col-action{
+        width: 20%;
+    }
+    .col-message{
+        width:40%;
+    }
+    .col-reason{
+        width:20%;
     }
     button[disabled]+.tooltip{
         visibility: hidden;
@@ -24,14 +36,12 @@
 </head>
 <body>
 
-<div class="container" id="ranking">
+<div class="container" id="spams-list">
     <div v-cloak>
         <div class="row text-center">
             <div class="col-xs-12">
-                <h1><a href="//www.facebook.com/groups/4it.community/" target="_blank">4IT
-                    Community Ranking - Tháng {{now}}</a></h1>
-                <p>Cập nhật lúc: <strong>{{last}}</strong>. Tổng số thành viên được xếp hạng: <strong>{{total}}</strong>
-                </p>
+                <h1><a href="//www.facebook.com/groups/4it.community/" target="_blank">Danh sách spam</a></h1>
+                <p v-if="total">Từ {{from}} tới {{to}} trên tổng số {{total}} tin spam</p>
             </div>
         </div>
         <div class="row">
@@ -42,15 +52,16 @@
                             {{loading?'Loading...':heading}}
                             <div class="pull-right">
                                 <div v-if="fb" class="pull-left" style="padding-right: 5px">
-                                    <button class="btn btn-default btn-xs" @click="loadRank" :disabled="loading">
-                                        <span class="glyphicon glyphicon-signal" aria-hidden="true"></span> {{loading ? 'Loading...' : 'Top 50'}}
+                                    <button class="btn btn-default btn-xs" @click="allSpam" :disabled="loading">
+                                        <span class="glyphicon glyphicon-signal" aria-hidden="true"></span> {{loading ? 'Loading...' : 'Tất cả'}}
                                     </button>
-                                    <button class="btn btn-default btn-xs" @click="myRank" :disabled="loading" title="Kiểm tra thứ hạng của bạn" data-toggle="tooltip">
-                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> {{loading ? 'Loading...' : 'My Rank'}}
+                                    <button class="btn btn-default btn-xs" @click="mySpam" :disabled="loading" title="Kiểm tra thứ hạng của bạn" data-toggle="tooltip">
+                                        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> {{loading ? 'Loading...' : 'Của tôi'}}
                                     </button>
                                 </div>
-                                <button :disabled="!prev" @click="prevMonth" class="btn btn-default btn-xs" title="Tháng trước" data-toggle="tooltip"><i class="glyphicon glyphicon-menu-left"></i></button>
-                                <button :disabled="!next" @click="nextMonth" class="btn btn-default btn-xs" title="Tháng sau" data-toggle="tooltip"><i class="glyphicon glyphicon-menu-right"></i></button>
+                                <span v-if="maxPages">{{page}}/{{maxPages}}</span>
+                                <button :disabled="!prev" @click="goBack" class="btn btn-default btn-xs" title="Trang trước" data-toggle="tooltip"><i class="glyphicon glyphicon-menu-left"></i></button>
+                                <button :disabled="!next" @click="goNext" class="btn btn-default btn-xs" title="Trang sau" data-toggle="tooltip"><i class="glyphicon glyphicon-menu-right"></i></button>
                             </div>
 
 
@@ -58,42 +69,35 @@
 
                     </div>
                     <div class="panel-body">
-                        <div class="alert alert-danger" v-if="ranks.length==0 && tab=='my'">
-                            <strong>Error!</strong> Bạn chưa được xếp hạng.
+                        <div class="alert alert-success" v-if="items.length==0">
+                            Không tìm thấy spam nào
                         </div>
-                        <div v-if="ranks.length > 0">
-                        <table id="rankTable" data-toggle="table" class="table">
-                            <thead>
-                            <tr>
-                                <th>Rank</th>
-                                <th>Name</th>
-                                <th class="text-center">Points</th>
-                                <th class="text-center" data-sortable="true">Posts</th>
-                                <th class="text-center" data-sortable="true">Spam</th>
-                                <th class="text-center" data-sortable="true">Scores</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr v-for="rank in ranks" :class="rank.is_mine?'bg-success':''">
-                                <td>{{rank.rank}}</td>
-                                <td>
-                                    <a target="_blank" :href="'https://fb.com/'+rank.fb_uid">
+                        <div v-if="items.length > 0">
+                            <table id="spamTable" data-toggle="table" class="table">
+                                <thead>
+                                <tr>
+                                    <th class="col-name">Tên</th>
+                                    <th class="col-message">Nội dung spam</th>
+                                    <th class="col-reason">Lý do</th>
+                                    <th class="col-action">Hành động</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr v-for="spam in items">
+                                    <td class="col-name"><a target="_blank" :href="'https://fb.com/'+spam.fb_uid">
                                         <img class="profile-picture"
-                                             :src="'//graph.facebook.com/'+rank.fb_uid+'/picture?width=32'"
+                                             :src="'//graph.facebook.com/'+spam.fb_uid+'/picture?width=32'"
                                              alt="profile-picture" width="32px" height="32px">
                                     </a>
-                                    <a target="_blank" :href="'https://fb.com/'+rank.fb_uid">
-                                        {{rank.fb_name}}
-                                    </a>
-
-                                </td>
-                                <td>{{rank.points}}</td>
-                                <td>{{rank.post}}</td>
-                                <td>{{rank.spam}}</td>
-                                <td>{{rank.scores}}</td>
-                            </tr>
-                            </tbody>
-                        </table>
+                                        <a target="_blank" :href="'https://fb.com/'+spam.fb_uid">
+                                            {{spam.fb_name}}
+                                        </a></td>
+                                    <td class="col-message">{{spam.message}}</td>
+                                    <td class="col-reason">{{spam.reason}}</td>
+                                    <td class="col-action"><a :href="spam.url" target="_blank">Xem nội dung</a></td>
+                                </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
 
@@ -111,7 +115,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/vue-resource/1.2.0/vue-resource.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.0/bootstrap-table.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
-<script src="assets/js/rank.js"></script>
+<script src="assets/js/spammers.js"></script>
 <script>
     window.fbAsyncInit = function() {
         FB.init({
