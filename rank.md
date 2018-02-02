@@ -33,7 +33,7 @@ Chú ý: Kick chứ không Block, bạn vẫn có quyền xin vào lại nhóm.
 Bắt đầu từ ngày 3-2-2018 Hệ thống ranking được bổ sung thêm 1 số quy tắc sau:
 - Bỏ qua bài viết thiếu hashtag hoặc hashtag không đúng và người đăng bị tính là **1 spam**
 - Bình luận trực tiếp trên bài viết    
-    - Bình luận bằng hình ảnh **không** bị tính là **spam**
+    - Bình luận bằng hình ảnh/sticker **không** bị tính là **spam** trừ các trường hợp bên dưới.
     - Đối với bài viết có gán hashtag *#4it_share* các bình luận bằng **hình ảnh/sticker** hoặc bình luận dưới **3 ký tự** sẽ bị tính là spam (Các bạn tôn trọng người share một chút ạ, đừng kiểu như "tks", "hay","(y)"...) 
     - Bình luận chỉ có **1 ký tự** sẽ bị tính là spam trừ trường hợp chơi minigame trên các bài viết có gắn hashtag *#4it_minigame* hoặc *#4it_game*
 - Trường hợp trả lời bình luận 
