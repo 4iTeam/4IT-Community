@@ -99,6 +99,7 @@ function queryStrings($var){
                 if(this.tab==='custom') {
                     this.uid='';
                 }
+                this.tab='my';
                 if(!this.uid){
                     if(this.fb){
                         this.uid = FB.getUserID();
