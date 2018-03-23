@@ -15,7 +15,7 @@ function queryStrings($var){
     rank=new Vue({
         el: "#ranking",
         data: {
-            endpoint: "https://4it.top/api/v1/rank",
+            endpoint: "https://graph.4it.top/v1/rank",
             action:'top',
             ranks: [],
             uid: '',
