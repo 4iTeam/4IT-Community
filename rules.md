@@ -14,6 +14,7 @@ Những tài khoản có dạng như sau sẽ **KHÔNG** được phép tham gia
 ## NỘI QUY ĐĂNG BÀI VIẾT
 
 ### VỀ NỘI DUNG
+- Mọi bài viết cần phải có [#hashtag](#về-hashtag), [#hashtag](#về-hashtag) cần đặt sát nhất với nội dung bài viết, không spam [#hashtag](#về-hashtag)
 - Sử dụng tiếng Việt, có dấu, tránh viết tắt. **KHÔNG** được sử dụng teen-code. **KHÔNG** sử dụng các từ ngữ tục tĩu, khiếm nhã, thiếu văn hóa.
 - **KHÔNG** đăng bài viết quảng cáo (rao vặt, bán sim,...). Có thể đăng bài viết tuyển dụng các công việc liên quan tới ngành nghề CNTT.
 - Dùng chức năng tìm kiếm bài viết trong nhóm trước khi đăng để tránh việc **trùng lặp nội dung**.

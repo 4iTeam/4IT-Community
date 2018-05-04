@@ -23,15 +23,16 @@ Chú ý: Kick chứ không Block, bạn vẫn có quyền xin vào lại nhóm.
 - Mỗi lượt **bình luận** được cộng **2 điểm**
 - Mỗi lượt **reaction** được cộng **1 điểm** 
 - Mỗi bình luận **spam** bị **trừ 50 điểm**
+- Mỗi bài viết **spam** bị **trừ 200 điểm**
 
 *Điểm của bình luận và reaction được cộng cho cả người đăng bài và người tương tác.*
 
 ***Ví dụ:*** Trong 30 ngày vừa qua, bạn đăng một bài và được 50 reactions, 20 comments. Bạn cũng like 10 bài viết, và có 5 comment trên 5 bài viết của người khác.
 <br> Như vậy bạn sẽ có: 1\*5+50\*1+20\*2+10\*1+5\*2=115 điểm
 
-#### Quy tắc bổ sung từ ngày 3-2-2018
-Bắt đầu từ ngày 3-2-2018 Hệ thống ranking được bổ sung thêm 1 số quy tắc sau:
-- Bỏ qua bài viết thiếu hashtag hoặc hashtag không đúng và người đăng bị tính là **1 spam**
+#### Các dạng spam
+
+- Bài viết **thiếu hashtag**, hoặc **hashtag sai chuẩn**, hashtag **không liên quan** đến nội dung bài viết
 - Bình luận trực tiếp trên bài viết    
     - Bình luận bằng hình ảnh/sticker **không** bị tính là **spam** trừ các trường hợp bên dưới.
     - Đối với bài viết có gán hashtag *#4it_share* các bình luận bằng **hình ảnh/sticker** hoặc bình luận dưới **3 ký tự** sẽ bị tính là spam (Các bạn tôn trọng người share một chút ạ, đừng kiểu như "tks", "hay","(y)"...) 
@@ -42,7 +43,8 @@ Bắt đầu từ ngày 3-2-2018 Hệ thống ranking được bổ sung thêm 1
 - Các bình luận trên bài viết có gán hashtag *#4it_share* chỉ được cộng điểm nếu có từ **2 từ** trở lên (nhằm tôn trọng người chia sẻ)
 - Các bình luận "chấm",".","hóng","," luôn bị tính là spam
 
-
+#### Tra cứu spam
+Các bạn có thể tra cứu spam **[tại đây](spam.html)** 
 
 ## BẢNG XẾP HẠNG
 Là nơi để kiểm tra thứ hạng cũng như xem ai là người dẫn đầu.
