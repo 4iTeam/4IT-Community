@@ -23,6 +23,7 @@ Những tài khoản có dạng như sau sẽ **KHÔNG** được phép tham gia
 - Nếu chia sẻ tài nguyên, liên kết mà thành viên khác có thể download được thì khuyến khích sử dụng trang [tainguyenso.net](https://tainguyenso.net), vừa chống được "Ninja" lại vừa tăng tương tác cho nhóm!
 - Nếu bài viết, tài nguyên không phải là của bạn thì hãy **ghi nguồn** khi chia sẻ vào nhóm để tôn trọng công sức của tác giả.
 - **KHÔNG** yêu cầu người khác cung cấp email trong bình luận. Nếu thực sự cần thiết phải chia sẻ qua email thì vui lòng sử dụng Google Forms.
+- **KHÔNG** chia sẻ các loại tài nguyên có chứa phần mềm gây hại mà không được nêu rõ trong bài viết.
 
 ### VỀ CHỦ ĐỀ
 
