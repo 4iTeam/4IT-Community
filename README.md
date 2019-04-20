@@ -19,3 +19,4 @@ Các công cụ liệt kê dưới đây được đóng góp bởi cộng đồ
 
 ## Disclaimer
 [Tuyên bố từ chối trách nhiệm](disclaimer.md)
+[Quyền riêng tư](privacy.md)
